@@ -232,6 +232,9 @@ img {
 #links {
   font-size: larger;
 }
+#copyright{
+  font-size: large;
+}
 @media (min-width: 1200px) {
   .list-group {
     width: 1200px;
