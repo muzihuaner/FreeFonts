@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'CustomFontName';
+  src: url('https://jsd.onmicrosoft.cn/gh/muzihuaner/txfont@main/txfont.woff2') format('woff2')
+}
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +10,7 @@ body {
   padding-top: 80px;
   font-size: 14px;
   color: #333;
+  font-family: 'CustomFontName', sans-serif;
 }
 .header {
   width: 100%;
