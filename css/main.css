@@ -84,10 +84,6 @@ img {
   box-sizing: border-box;
   background-color: #fafafa !important;
 }
-.list-group {
-  width: 1200px;
-  margin: 0 auto;
-}
 .list-group-item {
   border: none;
   background-color: #fafafa;
@@ -107,11 +103,11 @@ img {
   margin-bottom: 32px;
 }
 .card-text {
-    background-color: #fff000;
-    font-weight: bolder;
-    width: fit-content;
-    padding: 10px;
-    border-radius: 25px;
+  background-color: #fff000;
+  font-weight: bolder;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 25px;
 }
 .btn {
   float: right;
@@ -230,4 +226,10 @@ img {
 }
 #links {
   font-size: larger;
+}
+@media (min-width: 1200px) {
+  .list-group {
+    width: 1200px;
+    margin: 0 auto;
+  }
 }
