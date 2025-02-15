@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'CustomFontName';
-  src: url('https://cdn.jsdmirror.com/gh/muzihuaner/txfont@main/txfont.woff2') format('woff2')
+  src: url('https://testingcf.jsdelivr.net/gh/muzihuaner/txfont@main/txfont.woff2') format('woff2')
 }
 body {
   margin: 0;
